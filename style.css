@@ -1,0 +1,238 @@
+/*============= RESET CSS ============*/
+* {
+  margin: 0;
+  padding: 0;
+}
+/*============= FONTS ============*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+/*============= NAV ============*/
+.header {
+  height: 15vh;
+}
+
+.navbar-brand img {
+  height: 55px;
+}
+
+@media (min-width: 1000px) {
+  div form button.btn {
+    margin-right: 3rem;
+  }
+
+  .navbar-brand img {
+    margin-right: 8rem;
+  }
+}
+
+/*============= ROW-SEC1 ============*/
+div .inicial {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/*============= SECTION ============*/
+section {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+hr {
+  position: absolute;
+  width: 100vh;
+  height: 1px;
+  color: rgb(255, 255, 255);
+  border: 0.5px solid #ffffff;
+  z-index: 99;
+}
+
+.section.dark {
+  background-color: hsla(0, 0%, 9%, 1);
+  color: #fff;
+}
+
+section.duvidas {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+section.duvidas {
+  width: 100%;
+  align-items: center;
+}
+
+section.duvidas img {
+  margin-bottom: 2rem;
+}
+
+section.duvidas div p.big-text {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+section.funciona-para div.banner-info {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 600px) {
+  section.funciona-para div.banner-info {
+    margin-bottom: 2rem;
+  }
+}
+
+section.funciona-para p {
+  margin-bottom: 4rem;
+}
+
+section.esta-preparado {
+  width: 100%;
+  height: 230px;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-top: -15px;
+}
+
+section.esta-preparado button.btn {
+  margin-top: 2rem;
+  border-radius: 16px;
+  background: #4124b6;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  border: none;
+  width: 255px;
+  height: 41px;
+}
+
+section.esta-preparado p {
+  color: #fff;
+  margin-top: 2rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+section div p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+section div p.sec_1 {
+  margin-bottom: 2rem;
+}
+
+div p.big-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 37px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+div p.big-text-2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: 0.2px;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  text-align: left;
+}
+
+div p.big-text-3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 48px;
+  letter-spacing: 0.2px;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+@media (max-width: 750px) {
+  div p.big-text-2 {
+    font-size: 29px;
+    line-height: 35px;
+    letter-spacing: 0.2px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@media (min-width: 400px) {
+  div .banner-image {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+/*============= FOOTER ============*/
+
+footer {
+  width: 100%;
+  height: auto;
+  padding: 50px 100px;
+  background: rgb(255, 255, 255);
+}
+
+footer .container {
+  display: flex;
+}
+
+footer .container h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: black;
+}
+
+footer .container ul li {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+
+footer .container .banner-info {
+  margin-bottom: 2rem;
+}
+
+footer .container .text-footer {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  color: #181818;
+}
